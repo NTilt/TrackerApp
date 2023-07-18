@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11E5EE452A66EB4F000A3BAD /* Color+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE442A66EB4F000A3BAD /* Color+ext.swift */; };
+		11E5EE472A66EBAE000A3BAD /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE462A66EBAE000A3BAD /* Resource.swift */; };
+		11E5EE4A2A66ED6A000A3BAD /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE492A66ED6A000A3BAD /* TabItem.swift */; };
+		11E5EE4C2A66FFB6000A3BAD /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE4B2A66FFB6000A3BAD /* TabBarButton.swift */; };
+		11E5EE4E2A67004F000A3BAD /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE4D2A67004F000A3BAD /* TabBarShape.swift */; };
 		11F656CE2A66D058004C9EAA /* TrackerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F656CD2A66D058004C9EAA /* TrackerAppApp.swift */; };
 		11F656D02A66D058004C9EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F656CF2A66D058004C9EAA /* ContentView.swift */; };
 		11F656D22A66D05A004C9EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F656D12A66D05A004C9EAA /* Assets.xcassets */; };
 		11F656D52A66D05A004C9EAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F656D42A66D05A004C9EAA /* Preview Assets.xcassets */; };
+		11F656E02A66D229004C9EAA /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F656DF2A66D229004C9EAA /* CustomTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11E5EE442A66EB4F000A3BAD /* Color+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+ext.swift"; sourceTree = "<group>"; };
+		11E5EE462A66EBAE000A3BAD /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		11E5EE492A66ED6A000A3BAD /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		11E5EE4B2A66FFB6000A3BAD /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
+		11E5EE4D2A67004F000A3BAD /* TabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
 		11F656CA2A66D058004C9EAA /* TrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F656CD2A66D058004C9EAA /* TrackerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerAppApp.swift; sourceTree = "<group>"; };
 		11F656CF2A66D058004C9EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11F656D12A66D05A004C9EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11F656D42A66D05A004C9EAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11F656DF2A66D229004C9EAA /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +44,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11E5EE432A66EB27000A3BAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				11E5EE442A66EB4F000A3BAD /* Color+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		11E5EE482A66ED59000A3BAD /* Components+Models */ = {
+			isa = PBXGroup;
+			children = (
+				11E5EE492A66ED6A000A3BAD /* TabItem.swift */,
+				11E5EE4B2A66FFB6000A3BAD /* TabBarButton.swift */,
+				11E5EE4D2A67004F000A3BAD /* TabBarShape.swift */,
+			);
+			path = "Components+Models";
+			sourceTree = "<group>";
+		};
 		11F656C12A66D058004C9EAA = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +81,10 @@
 		11F656CC2A66D058004C9EAA /* TrackerApp */ = {
 			isa = PBXGroup;
 			children = (
-				11F656CD2A66D058004C9EAA /* TrackerAppApp.swift */,
-				11F656CF2A66D058004C9EAA /* ContentView.swift */,
-				11F656D12A66D05A004C9EAA /* Assets.xcassets */,
+				11E5EE432A66EB27000A3BAD /* Extensions */,
+				11F656DD2A66D0A4004C9EAA /* Views */,
+				11F656DC2A66D09C004C9EAA /* Resources */,
+				11F656DB2A66D096004C9EAA /* Application */,
 				11F656D32A66D05A004C9EAA /* Preview Content */,
 			);
 			path = TrackerApp;
@@ -65,6 +96,41 @@
 				11F656D42A66D05A004C9EAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11F656DB2A66D096004C9EAA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				11F656CD2A66D058004C9EAA /* TrackerAppApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		11F656DC2A66D09C004C9EAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11F656D12A66D05A004C9EAA /* Assets.xcassets */,
+				11E5EE462A66EBAE000A3BAD /* Resource.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		11F656DD2A66D0A4004C9EAA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11F656DE2A66D1E8004C9EAA /* TabBar */,
+				11F656CF2A66D058004C9EAA /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		11F656DE2A66D1E8004C9EAA /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				11E5EE482A66ED59000A3BAD /* Components+Models */,
+				11F656DF2A66D229004C9EAA /* CustomTabBarView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +203,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F656E02A66D229004C9EAA /* CustomTabBarView.swift in Sources */,
+				11E5EE4E2A67004F000A3BAD /* TabBarShape.swift in Sources */,
+				11E5EE452A66EB4F000A3BAD /* Color+ext.swift in Sources */,
+				11E5EE4A2A66ED6A000A3BAD /* TabItem.swift in Sources */,
 				11F656D02A66D058004C9EAA /* ContentView.swift in Sources */,
+				11E5EE4C2A66FFB6000A3BAD /* TabBarButton.swift in Sources */,
+				11E5EE472A66EBAE000A3BAD /* Resource.swift in Sources */,
 				11F656CE2A66D058004C9EAA /* TrackerAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +347,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +377,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
