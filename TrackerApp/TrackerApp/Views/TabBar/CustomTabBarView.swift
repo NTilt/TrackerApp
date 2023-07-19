@@ -18,13 +18,8 @@ struct CustomTabBarView: View {
                 rightButtons
                     .padding(.trailing, 12)
             }
-            .frame(maxWidth: .infinity, maxHeight: 64)
-            .background {
-                TabBarShape()
-                    .fill(Resource.Colors.tabBarColor)
-                    .opacity(0.75)
-                    .frame(maxWidth: .infinity, maxHeight: 64)
-            }
+            .frame(maxWidth: .infinity, maxHeight: 74)
+            .background(.ultraThinMaterial, in: TabBarShape())
             .overlay {
                 addButton
                     .offset(y: -23)

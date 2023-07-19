@@ -11,7 +11,7 @@ import SwiftUI
 struct TrackerAppApp: App {
     var body: some Scene {
         WindowGroup {
-            CustomTabBarView()
+            HomeView()
         }
     }
 }

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct TabBarShape: Shape {
     func path(in rect: CGRect) -> Path {
-        var path = Path()
+    var path = Path()
         let width = rect.size.width
         let height = rect.size.height
         path.move(to: CGPoint(x: 0.37299*width, y: 0))

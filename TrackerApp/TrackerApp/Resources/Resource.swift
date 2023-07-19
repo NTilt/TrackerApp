@@ -20,6 +20,7 @@ enum Resource {
     enum Colors {
         static let tabBarColor = Color(hex: "#4E4E61")
         static let tabBarButtonAdd = Color(hex: "#FF7966")
+        static let progressViewSubTitle = Color(hex: "#83839C")
     }
     
 }

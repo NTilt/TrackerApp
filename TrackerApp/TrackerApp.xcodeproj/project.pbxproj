@@ -7,27 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1106E3CA2A6865B400838906 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106E3C92A6865B400838906 /* HeaderView.swift */; };
+		1106E3CC2A686C9B00838906 /* CustomHeaderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106E3CB2A686C9B00838906 /* CustomHeaderButton.swift */; };
+		11CCB03E2A681CA500083C27 /* View+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CCB03D2A681CA500083C27 /* View+ext.swift */; };
 		11E5EE452A66EB4F000A3BAD /* Color+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE442A66EB4F000A3BAD /* Color+ext.swift */; };
 		11E5EE472A66EBAE000A3BAD /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE462A66EBAE000A3BAD /* Resource.swift */; };
 		11E5EE4A2A66ED6A000A3BAD /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE492A66ED6A000A3BAD /* TabItem.swift */; };
 		11E5EE4C2A66FFB6000A3BAD /* TabBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE4B2A66FFB6000A3BAD /* TabBarButton.swift */; };
 		11E5EE4E2A67004F000A3BAD /* TabBarShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE4D2A67004F000A3BAD /* TabBarShape.swift */; };
+		11E5EE522A670EF9000A3BAD /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E5EE512A670EF9000A3BAD /* ProgressView.swift */; };
 		11F656CE2A66D058004C9EAA /* TrackerAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F656CD2A66D058004C9EAA /* TrackerAppApp.swift */; };
-		11F656D02A66D058004C9EAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F656CF2A66D058004C9EAA /* ContentView.swift */; };
+		11F656D02A66D058004C9EAA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F656CF2A66D058004C9EAA /* HomeView.swift */; };
 		11F656D22A66D05A004C9EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F656D12A66D05A004C9EAA /* Assets.xcassets */; };
 		11F656D52A66D05A004C9EAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11F656D42A66D05A004C9EAA /* Preview Assets.xcassets */; };
 		11F656E02A66D229004C9EAA /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F656DF2A66D229004C9EAA /* CustomTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1106E3C92A6865B400838906 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1106E3CB2A686C9B00838906 /* CustomHeaderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHeaderButton.swift; sourceTree = "<group>"; };
+		11CCB03D2A681CA500083C27 /* View+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+ext.swift"; sourceTree = "<group>"; };
 		11E5EE442A66EB4F000A3BAD /* Color+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+ext.swift"; sourceTree = "<group>"; };
 		11E5EE462A66EBAE000A3BAD /* Resource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		11E5EE492A66ED6A000A3BAD /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
 		11E5EE4B2A66FFB6000A3BAD /* TabBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarButton.swift; sourceTree = "<group>"; };
 		11E5EE4D2A67004F000A3BAD /* TabBarShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarShape.swift; sourceTree = "<group>"; };
+		11E5EE512A670EF9000A3BAD /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		11F656CA2A66D058004C9EAA /* TrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F656CD2A66D058004C9EAA /* TrackerAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerAppApp.swift; sourceTree = "<group>"; };
-		11F656CF2A66D058004C9EAA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11F656CF2A66D058004C9EAA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		11F656D12A66D05A004C9EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11F656D42A66D05A004C9EAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11F656DF2A66D229004C9EAA /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
@@ -48,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				11E5EE442A66EB4F000A3BAD /* Color+ext.swift */,
+				11CCB03D2A681CA500083C27 /* View+ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -60,6 +69,24 @@
 				11E5EE4D2A67004F000A3BAD /* TabBarShape.swift */,
 			);
 			path = "Components+Models";
+			sourceTree = "<group>";
+		};
+		11E5EE4F2A670ED1000A3BAD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				11E5EE502A670EE5000A3BAD /* ProgressView */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		11E5EE502A670EE5000A3BAD /* ProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				11E5EE512A670EF9000A3BAD /* ProgressView.swift */,
+				1106E3C92A6865B400838906 /* HeaderView.swift */,
+				1106E3CB2A686C9B00838906 /* CustomHeaderButton.swift */,
+			);
+			path = ProgressView;
 			sourceTree = "<group>";
 		};
 		11F656C12A66D058004C9EAA = {
@@ -118,8 +145,9 @@
 		11F656DD2A66D0A4004C9EAA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				11E5EE4F2A670ED1000A3BAD /* Home */,
 				11F656DE2A66D1E8004C9EAA /* TabBar */,
-				11F656CF2A66D058004C9EAA /* ContentView.swift */,
+				11F656CF2A66D058004C9EAA /* HomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -205,12 +233,16 @@
 			files = (
 				11F656E02A66D229004C9EAA /* CustomTabBarView.swift in Sources */,
 				11E5EE4E2A67004F000A3BAD /* TabBarShape.swift in Sources */,
+				11CCB03E2A681CA500083C27 /* View+ext.swift in Sources */,
 				11E5EE452A66EB4F000A3BAD /* Color+ext.swift in Sources */,
 				11E5EE4A2A66ED6A000A3BAD /* TabItem.swift in Sources */,
-				11F656D02A66D058004C9EAA /* ContentView.swift in Sources */,
+				11F656D02A66D058004C9EAA /* HomeView.swift in Sources */,
 				11E5EE4C2A66FFB6000A3BAD /* TabBarButton.swift in Sources */,
+				1106E3CA2A6865B400838906 /* HeaderView.swift in Sources */,
 				11E5EE472A66EBAE000A3BAD /* Resource.swift in Sources */,
 				11F656CE2A66D058004C9EAA /* TrackerAppApp.swift in Sources */,
+				11E5EE522A670EF9000A3BAD /* ProgressView.swift in Sources */,
+				1106E3CC2A686C9B00838906 /* CustomHeaderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
